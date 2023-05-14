@@ -3,7 +3,7 @@
 This project can generate abstract art images consisting of geometric shapes on a gradient background.
 
 ```python
-from abstract_art import AbstractArtGenerator
+from AbstractArt import AbstractArtGenerator
 ```
 
 # Initialize the class 
