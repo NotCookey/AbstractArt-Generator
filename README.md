@@ -1,0 +1,59 @@
+<h2><p align="center">Abstract Art Generator</p></h2>
+
+This project can generate abstract art images consisting of geometric shapes on a gradient background.
+
+```python
+from abstract_art import AbstractArtGenerator
+```
+
+# Initialize the class 
+```python
+generator = AbstractArtGenerator(size=(1920, 1080), num_shapes=500)
+```
+
+# Generate the image
+```python
+generator.generate()
+```
+
+# Save the image 
+```python
+generator.save("image.png")
+```
+Parameters:
+
+size - Size of the generated image in (width, height)  
+num_shapes - Number of geometric shapes to draw
+
+Shapes:
+```
+- Circles   
+- Triangles
+- Squares   
+- Leafs     
+- Stars
+- Droplets
+```
+
+Concurrency:
+```
+The shape drawing is done concurrently using a ThreadPoolExecutor to  
+speed up the generation process.
+```
+
+Requirements:
+```
+- PIL
+- concurrent.futures
+```
+
+Usage example:
+```python
+generator = AbstractArtGenerator(size=(1920, 1080))
+generator.generate()
+generator.save("abstract.png")
+```
+
+<hr>
+
+Hope this helps!
