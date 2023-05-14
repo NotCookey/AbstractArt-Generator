@@ -1,6 +1,7 @@
 <h2><p align="center">Abstract Art Generator</p></h2>
 
-![abstract_art (6)](https://github.com/NotCookey/AbstractArt-Generator/assets/88582190/d4e3f4e9-eb4b-4bd5-87f3-1970b9cc641c)
+![abstract_art (6)](https://github.com/NotCookey/AbstractArt-Generator/assets/88582190/a6314d23-fa84-4bff-b49e-280db359aa71)
+
 
 This project can generate abstract art images consisting of geometric shapes on a gradient background.
 
